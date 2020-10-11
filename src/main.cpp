@@ -1,5 +1,7 @@
 
 // simulator for M3-Pro Temperature Scanner @komkrit 9/2020
+// get the reading temperature = (DEC+256)/10
+// get DEC from desired temperature = 10*temp-256
 
 #include <Arduino.h>
 #include <BLEDevice.h>
